@@ -7,12 +7,32 @@ def readme():
 	return info
 
 
-
 setup(
 	name='speedo',
 	version='1.0.0',
 	description='analyse and illustrate data and equation',
 	long_description=readme(),
 	long_description_content_type='text/markdown',
-	url=''
+	url='https://github.com/Weilory/speedo/',
+	author='Messiz YiQi Qin',
+	author_email='messizqin@gmail.com',
+	license='MIT',
+	classifiers=[
+		"License :: OSI Approved :: MIT License",
+		"Programming Language :: Python :: 3",
+		"Programming Language :: Python :: 3.8",
+	],
+	packages=['speedo'],
+	include_package_data=True,
+	install_requires=[
+		'scipy',
+		'numpy',
+		'matplotlib',
+		'sympy',
+		'tkinter',
+		'mpmath',
+		'cycler',
+		'pyparsing',
+		'python-dateutil',
+	],
 )
