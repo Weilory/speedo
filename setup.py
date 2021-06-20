@@ -9,7 +9,7 @@ def readme():
 
 setup(
 	name='speedo',
-	version='1.0.0',
+	version='1.0.1',
 	description='analyse and illustrate data and equation',
 	long_description=readme(),
 	long_description_content_type='text/markdown',
