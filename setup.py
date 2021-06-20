@@ -24,15 +24,5 @@ setup(
 	],
 	packages=['speedo'],
 	include_package_data=True,
-	install_requires=[
-		'scipy',
-		'numpy',
-		'matplotlib',
-		'sympy',
-		'tkinter',
-		'mpmath',
-		'cycler',
-		'pyparsing',
-		'python-dateutil',
-	],
+	install_requires=[],
 )
