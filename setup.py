@@ -13,7 +13,7 @@ setup(
 	description='analyse and illustrate data and equation',
 	long_description=readme(),
 	long_description_content_type='text/markdown',
-	url='https://github.com/Weilory/speedo/',
+	url='https://github.com/messizqin/speedo/',
 	author='Messiz YiQi Qin',
 	author_email='messizqin@gmail.com',
 	license='MIT',
