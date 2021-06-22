@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def readme():
@@ -22,7 +22,8 @@ setup(
 		"Programming Language :: Python :: 3",
 		"Programming Language :: Python :: 3.8",
 	],
-	packages=['speedo', 'speedo.algorithms', 'speedo.algorithms.calculations', 'speedo.algorithms.regression', 'speedo.algorithms.sketch'],
+	packages=find_packages('speedo'),
+	package_dir={'': 'example'},
 	include_package_data=True,
 	install_requires=[],
 )
