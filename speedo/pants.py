@@ -1,1 +1,1 @@
-from algorithms.sketch.data import *
+from speedo.algorithms.sketch.data import *

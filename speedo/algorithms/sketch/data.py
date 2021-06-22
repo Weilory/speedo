@@ -8,20 +8,20 @@ matplotlib.use('TkAgg')
 
 # data.py
 from mpl_toolkits.axisartist import SubplotZero
-from algorithms.sketch.outliers import graph as outlier_graph
-from algorithms.calculations.common import linespace, string_list, merge, roll, one_d
+from speedo.algorithms.sketch.outliers import graph as outlier_graph
+from speedo.algorithms.calculations.common import linespace, string_list, merge, roll, one_d
 
 # expression.py
-from algorithms.calculations.common import pascal, round_dict
-from algorithms.calculations.discrete import Boundary, domain_initializer
+from speedo.algorithms.calculations.common import pascal, round_dict
+from speedo.algorithms.calculations.discrete import Boundary, domain_initializer
 
 # funcs.py
-from algorithms.regression.regress import *
+from speedo.algorithms.regression.regress import *
 
-from algorithms.calculations.common import commute, either, coe_decode, exponents
-from algorithms.sketch.theme import Theme
+from speedo.algorithms.calculations.common import commute, either, coe_decode, exponents
+from speedo.algorithms.sketch.theme import Theme
 
-from algorithms.regression.bezier import sketch as bezier_sketch, illustrate as bezier_illustrate, draw as bezier_draw
+from speedo.algorithms.regression.bezier import sketch as bezier_sketch, illustrate as bezier_illustrate, draw as bezier_draw
 
 
 class List(list):

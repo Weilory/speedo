@@ -10,8 +10,8 @@ copyright 2020 @Messiz Qin https://github.com/Weilory
     call recurse, assign to formulate to get result
 """
 
-from algorithms.regression.matrices import Matrix
-from algorithms.regression.modules import Vector
+from speedo.algorithms.regression.matrices import Matrix
+from speedo.algorithms.regression.modules import Vector
 
 
 class Plane:

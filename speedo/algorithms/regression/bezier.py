@@ -17,7 +17,7 @@ from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 from random import choice, randint
 
-from algorithms.regression.modules import Vector
+from speedo.algorithms.regression.modules import Vector
 
 
 class Color:

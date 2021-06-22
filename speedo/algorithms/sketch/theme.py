@@ -1,5 +1,5 @@
 import random
-from algorithms.calculations.common import linespace
+from speedo.algorithms.calculations.common import linespace
 
 
 class Scheme:

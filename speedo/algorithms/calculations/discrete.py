@@ -4,7 +4,7 @@ for example:
     boundary1.union(boundary2) returns boundary1 which is modified
     boundary1.union_(boundary2) returns a new boundary object
 """
-from algorithms.calculations.common import one_d
+from speedo.algorithms.calculations.common import one_d
 
 
 class Boundary:

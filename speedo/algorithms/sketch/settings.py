@@ -1,5 +1,5 @@
-from algorithms.regression.describe import Write
-from algorithms.regression.modules import Expression
+from speedo.algorithms.regression.describe import Write
+from speedo.algorithms.regression.modules import Expression
 
 
 def set_precision(decimal_place: int):

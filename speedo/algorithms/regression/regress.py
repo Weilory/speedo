@@ -5,9 +5,9 @@ for each function, either pass in x and y values or [[x, y], [x, y]..] dots valu
 """
 
 
-from algorithms.regression.funcs import *
-from algorithms.regression.describe import Write
-from algorithms.regression.modules import Comparison, ready
+from speedo.algorithms.regression.funcs import *
+from speedo.algorithms.regression.describe import Write
+from speedo.algorithms.regression.modules import Comparison, ready
 
 
 @ready

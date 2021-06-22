@@ -1,5 +1,5 @@
 import random
-from algorithms.regression.mono import Mono
+from speedo.algorithms.regression.mono import Mono
 
 
 class DataFrame:

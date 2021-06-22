@@ -14,7 +14,7 @@ Inspired by
 
 """
 
-from algorithms.regression.regress import regression
+from speedo.algorithms.regression.regress import regression
 
 import tkinter as tk
 import random

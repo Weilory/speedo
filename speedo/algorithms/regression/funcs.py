@@ -1,7 +1,7 @@
 import string
 
-from algorithms.regression.modules import *
-from algorithms.regression.constants import Plane
+from speedo.algorithms.regression.modules import *
+from speedo.algorithms.regression.constants import Plane
 
 
 NAMESPACE = 'regress_func'
