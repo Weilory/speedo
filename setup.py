@@ -22,8 +22,7 @@ setup(
 		"Programming Language :: Python :: 3",
 		"Programming Language :: Python :: 3.8",
 	],
-	packages=find_packages('speedo'),
-	package_dir={'': 'speedo'},
+	packages=find_packages(),
 	include_package_data=True,
 	install_requires=[],
 )
