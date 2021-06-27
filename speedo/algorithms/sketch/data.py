@@ -614,7 +614,10 @@ class SuitDataLinear(GraphData):
             starts = data_cum[:, i] - widths
             rects = self.ax.barh(labels, widths, left=starts, height=0.5,
                             label=colname, color=color)
-            r, g, b = color
+            if len(color) == 3:
+                r, g, b = color
+            else:
+                r, g, b, a = color
             text_color = 'white' if r * g * b < 0.5 else 'darkgrey'
             self.ax.bar_label(rects, label_type='center', color=text_color)
         self.ax.legend(ncol=len(labels), bbox_to_anchor=(0, 1),
