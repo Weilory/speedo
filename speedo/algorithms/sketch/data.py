@@ -1008,7 +1008,7 @@ class Func:
         else:
             return self.coe == other.coe
 
-    # compare leading exponential
+    # compare leadinng exponential
     def __gt__(self, other):
         if self.written or other.written:
             return max(exponents(str(self))) > max(exponents(str(other)))
@@ -1290,7 +1290,7 @@ class Func:
     def normal(self, xx):
         tangent = self.tangent(xx)
         coe = tangent.coe
-        return Func({1: -1 / coe[0], 0: coe[1]}, domain=domain_initializer(self.domain))
+        return Func({1: -1 / coe[0]}, domain=domain_initializer(self.domain)).calc_constant([xx, self.formula(xx)])
 
     def sample(self, n, x_start=None, x_end=None, ignore_discontinuity=False) -> Vectors:
         if isinstance(n, list):
@@ -1538,6 +1538,7 @@ class GraphFunc(GraphStatic):
         super(GraphFunc, self).__init__(fig=fig, ax=ax, cartesian=cartesian, square=square)
         self.func = func
         self.n = n
+        self.func.set(label_shift_xy=(0, 0))
 
     def __get_color(self, kwargs):
         # priority
